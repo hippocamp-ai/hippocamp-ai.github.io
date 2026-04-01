@@ -1,0 +1,74 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rimChrome" x1="74" y1="64" x2="438" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#757B85"/>
+      <stop offset="0.1" stop-color="#F7F8FA"/>
+      <stop offset="0.24" stop-color="#8E939D"/>
+      <stop offset="0.38" stop-color="#FFFFFF"/>
+      <stop offset="0.54" stop-color="#707681"/>
+      <stop offset="0.72" stop-color="#F8F9FB"/>
+      <stop offset="0.88" stop-color="#959BA6"/>
+      <stop offset="1" stop-color="#E9EBEF"/>
+    </linearGradient>
+    <linearGradient id="baseChrome" x1="110" y1="442" x2="402" y2="442" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707681"/>
+      <stop offset="0.12" stop-color="#F6F7F9"/>
+      <stop offset="0.28" stop-color="#878D97"/>
+      <stop offset="0.48" stop-color="#FFFFFF"/>
+      <stop offset="0.68" stop-color="#6E747E"/>
+      <stop offset="0.86" stop-color="#F8F9FA"/>
+      <stop offset="1" stop-color="#848A94"/>
+    </linearGradient>
+    <linearGradient id="bodyDark" x1="256" y1="96" x2="256" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#131519"/>
+      <stop offset="0.42" stop-color="#020304"/>
+      <stop offset="0.72" stop-color="#0E1014"/>
+      <stop offset="1" stop-color="#1A1D22"/>
+    </linearGradient>
+    <linearGradient id="bodyGlow" x1="256" y1="124" x2="256" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <radialGradient id="innerFloor" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 378) rotate(90) scale(54 112)">
+      <stop offset="0" stop-color="#F7F8FB" stop-opacity="0.95"/>
+      <stop offset="0.38" stop-color="#D1D5DE" stop-opacity="0.55"/>
+      <stop offset="0.75" stop-color="#5F6672" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#111318" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 473) rotate(90) scale(18 118)">
+      <stop offset="0" stop-color="#0F172A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="mesh" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="translate(0 2)">
+      <path d="M-8 28L14 0L36 28" stroke="#515762" stroke-width="3.4" stroke-linecap="round" stroke-opacity="0.92"/>
+      <path d="M-8 0L14 28L36 0" stroke="#2A2F36" stroke-width="3.4" stroke-linecap="round" stroke-opacity="0.95"/>
+      <path d="M-8 28L14 0L36 28" stroke="#8C92A0" stroke-width="1.05" stroke-linecap="round" stroke-opacity="0.18"/>
+      <path d="M-8 0L14 28L36 0" stroke="#BCC2CE" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.08"/>
+    </pattern>
+    <clipPath id="canBodyClip">
+      <path d="M112 112C129 92 164 80 209 76H303C348 80 383 92 400 112L414 354C418 427 369 468 304 468H208C143 468 94 427 98 354L112 112Z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="256" cy="474" rx="124" ry="18" fill="url(#shadow)"/>
+
+  <g clip-path="url(#canBodyClip)">
+    <path d="M112 112C129 92 164 80 209 76H303C348 80 383 92 400 112L414 354C418 427 369 468 304 468H208C143 468 94 427 98 354L112 112Z" fill="url(#bodyDark)"/>
+    <rect x="92" y="86" width="328" height="386" fill="url(#mesh)" opacity="0.98"/>
+    <ellipse cx="256" cy="374" rx="96" ry="44" fill="url(#innerFloor)"/>
+    <path d="M112 112C129 92 164 80 209 76H303C348 80 383 92 400 112L414 354C418 427 369 468 304 468H208C143 468 94 427 98 354L112 112Z" fill="url(#bodyGlow)"/>
+  </g>
+
+  <path d="M112 112C129 92 164 80 209 76H303C348 80 383 92 400 112L414 354C418 427 369 468 304 468H208C143 468 94 427 98 354L112 112Z" stroke="#2A2E35" stroke-width="6"/>
+
+  <ellipse cx="256" cy="86" rx="182" ry="34" fill="url(#rimChrome)"/>
+  <ellipse cx="256" cy="86" rx="182" ry="34" stroke="#7F8590" stroke-width="6"/>
+  <ellipse cx="256" cy="92" rx="156" ry="22" fill="#050608"/>
+  <path d="M105 78C138 58 190 48 256 48C322 48 374 58 407 78" stroke="#FFFFFF" stroke-opacity="0.48" stroke-width="8" stroke-linecap="round"/>
+
+  <ellipse cx="256" cy="438" rx="146" ry="28" fill="url(#baseChrome)"/>
+  <ellipse cx="256" cy="438" rx="146" ry="28" stroke="#818791" stroke-width="6"/>
+  <ellipse cx="256" cy="430" rx="118" ry="18" fill="#050608" fill-opacity="0.28"/>
+  <path d="M150 430C184 444 220 450 256 450C292 450 328 444 362 430" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="5" stroke-linecap="round"/>
+</svg>
