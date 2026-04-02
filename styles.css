@@ -263,34 +263,30 @@ h1 span + span {
 }
 
 .hero__authors {
-  margin: 20px auto 14px;
+  margin: 18px auto 10px;
   max-width: var(--content-width);
-  color: var(--ink);
-  font-size: clamp(1rem, 1.3vw, 1.1rem);
-  font-weight: 500;
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  line-height: 1.8;
+  color: var(--blue);
+  font-size: clamp(1.05rem, 1.4vw, 1.14rem);
+  font-weight: 550;
+  font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
+  line-height: 1.5;
   text-align: center;
 }
 
 .hero__authors sup {
   font-size: 0.65em;
-  color: var(--muted);
   margin-left: 1px;
-  font-weight: 400;
 }
 
 .hero__authors a {
-  color: var(--ink);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.hero__authors a:hover {
-  color: var(--blue);
+  color: inherit;
   text-decoration: underline;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.14em;
+}
+
+.hero__authors a:hover {
+  color: var(--ink);
 }
 
 .hero__authors div + div {
