@@ -276,6 +276,7 @@ h1 span + span {
 .hero__authors sup {
   font-size: 0.65em;
   margin-left: 1px;
+  color: var(--muted);
 }
 
 .hero__authors a {
