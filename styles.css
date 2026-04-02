@@ -303,8 +303,6 @@ h1 span + span {
 .hero__affiliation sup {
   font-size: 0.7em;
   margin-right: 2px;
-  color: var(--blue);
-  font-weight: 600;
 }
 
 .hero__summary {
