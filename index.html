@@ -63,11 +63,11 @@
           </div>
           <p class="hero__affiliation">Nanyang Technological University, Singapore</p>
           <div class="hero__actions">
-            <button class="hero-pill hero-pill--dark hero-pill--placeholder" type="button" title="Paper link to be added">
+            <a class="hero-pill hero-pill--dark" href="https://arxiv.org/pdf/2604.01221" target="_blank" rel="noopener">
               <span class="hero-pill__icon hero-pill__icon--emoji" aria-hidden="true">📄</span>
               <span>Paper</span>
-            </button>
-            <a class="hero-pill hero-pill--dark" href="https://github.com/Savannah-yz/HippoCamp" target="_blank" rel="noopener">
+            </a>
+            <a class="hero-pill hero-pill--dark" href="https://github.com/synvo-ai/HippoCamp" target="_blank" rel="noopener">
               <span class="hero-pill__icon hero-pill__icon--emoji" aria-hidden="true">🐱</span>
               <span>GitHub</span>
             </a>
@@ -145,8 +145,11 @@
           <div class="eyebrow">Video</div>
           <h2>Video</h2>
         </div>
-        <div style="max-width: var(--content-width); margin-left: auto; margin-right: auto; text-align: center; padding: 3rem 1.5rem; border: 2px dashed var(--clr-border); border-radius: 1rem; color: var(--clr-fg-muted);">
-          <p style="font-size: 1.125rem;">Video coming soon.</p>
+        <div style="max-width: var(--content-width); margin-left: auto; margin-right: auto;">
+          <video controls style="width: 100%; border-radius: 1rem;">
+            <source src="./Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </section>
 
@@ -699,9 +702,15 @@
           <h2>Citation</h2>
         </div>
 
-        <div style="max-width: var(--content-width); margin-left: auto; margin-right: auto; text-align: center; padding: 3rem 1.5rem; border: 2px dashed var(--clr-border); border-radius: 1rem; color: var(--clr-fg-muted);">
-          <p style="font-size: 1.125rem;">Citation coming soon.</p>
-        </div>
+        <pre class="citation-block" style="max-width: var(--content-width); margin-left: auto; margin-right: auto; padding: 1.5rem; background: var(--clr-surface); border: 1px solid var(--clr-border); border-radius: 1rem; text-align: left; font-size: 0.875rem; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;">@misc{yang2026hippocampbenchmarkingcontextualagents,
+      title={HippoCamp: Benchmarking Contextual Agents on Personal Computers},
+      author={Zhe Yang and Shulin Tian and Kairui Hu and Shuai Liu and Hoang-Nhat Nguyen and Yichi Zhang and Zujin Guo and Mengying Yu and Zinan Zhang and Jingkang Yang and Chen Change Loy and Ziwei Liu},
+      year={2026},
+      eprint={2604.01221},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.01221},
+}</pre>
       </section>
     </main>
   </div>
