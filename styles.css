@@ -263,33 +263,52 @@ h1 span + span {
 }
 
 .hero__authors {
-  margin: 18px auto 10px;
+  margin: 20px auto 14px;
   max-width: var(--content-width);
-  color: var(--blue);
-  font-size: clamp(1.05rem, 1.4vw, 1.14rem);
-  font-weight: 550;
-  font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
-  line-height: 1.5;
+  color: var(--ink);
+  font-size: clamp(1rem, 1.3vw, 1.1rem);
+  font-weight: 500;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.hero__authors sup {
+  font-size: 0.65em;
+  color: var(--muted);
+  margin-left: 1px;
+  font-weight: 400;
 }
 
 .hero__authors a {
-  color: inherit;
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.hero__authors a:hover {
+  color: var(--blue);
   text-decoration: underline;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.14em;
 }
 
-.hero__authors a:hover {
-  color: var(--ink);
-}
-
 .hero__authors div + div {
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .hero__affiliation {
-  margin: 0 auto 18px;
+  margin: 0 auto 6px;
   color: var(--muted);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.hero__affiliation sup {
+  font-size: 0.7em;
+  margin-right: 2px;
+  color: var(--blue);
+  font-weight: 600;
 }
 
 .hero__summary {
