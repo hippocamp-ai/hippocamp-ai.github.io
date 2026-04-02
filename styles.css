@@ -177,7 +177,7 @@ section[id] {
 }
 
 .eyebrow {
-  display: none;
+  display: none !important;
 }
 
 h1,
