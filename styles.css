@@ -1105,7 +1105,7 @@ h1 span + span {
 .leaderboard-table td {
   padding: 14px 16px;
   border-bottom: 1px solid rgba(69, 57, 44, 0.08);
-  text-align: left;
+  text-align: center;
 }
 
 .leaderboard-table th {
